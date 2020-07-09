@@ -1,11 +1,11 @@
-#example of deploying multiple resources with an implicit dependency  
+#example of deploying multiple resources with an implicit dependency
 
 provider "aws" {
   region     = "us-east-1"
 }
 
 resource "aws_s3_bucket" "example" {
-  bucket = "terraform examples"
+  bucket = "tfex2578"
   acl    = "private"
 }
 
